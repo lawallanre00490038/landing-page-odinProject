@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container-head {
+    background-color: #1f2937;
+    padding: 0 100px;
+    height: auto;
+}
+
+.header {
+    display: float;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 10px;
+    padding: 0 100px;
+}
+
+.header header {
+    float: left;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header .nav-div {
+    float: right;
+
+}
+
+/* Navbar Styling */
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar li a {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.navbar li a:hover {
+    background-color: rgba(68, 68, 255, 0.781);
+    border-radius: 10px;
+    transition: 0.5s ease-in 0.1s;
+}
+
+/* Slider Styling */
+.slider {
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.slider .left, .slider .right {
+    flex: 1;
+}
+
+.slider .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.slider .left>input {
+    justify-self: flex-end;
+}
+
+
+.slider .left h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.slider .left p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.slider>.right {
+    height: 70vh;
+    text-align: center;
+}
+
+.slider>.right img {
+    width: 80%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+.btn {
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    border-radius:10px;
+    margin: 10px 0;
+}
+
+.btn:hover {
+    background-color: blue;
+    transition: 0.5s ease-in 0.1s;
+}
+
+.btn-formal {
+   background-color: #3882F6;
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+    border: 0;
+}
+.btn-white-border {
+    border: 2px solid white;
+}
+
+/* End Slider Styling */
+
+/* Gallery Styling */
+.container-gallery {
+    padding: 50px 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-content{
+    flex: 1;
+}
+
+.gallery-content main {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+.gallery-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    /* flex: 1; */
+}
+
+.gallery-box {
+    border: 2px solid rgb(124, 124, 236);
+    height: 180px;
+    width: 180px;
+    border-radius: 20px;
+    
+}
+
+.gallery-text {
+    width: 180px;
+}
+.gallery-content h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+/* Testimonial Styling */
+.container-testimonial {
+    padding: 50px 150px;
+    background-color: #e5e7eb;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-testimonial main .testimonial {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.container-testimonial main .customer-name {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* Call to action Styling */
+.container-call-to-action {
+    padding: 100px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-to-action {
+    color: white;
+    background-color: #3882F6;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+    border-radius: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 150px;
+    background-color: #1f2937;
+}
+
+.footer footer {
+    color: white;
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+
+
+
+
+/* @media all and (max-width: 650px){
+    .container-head {
+    background-color: #1f2937;
+    padding: 0 50px;
+    height: auto;
+    }
+
+    .header {
+    display: block;
+    position: static;
+    padding: 0;
+}
+
+.header>header>h1 {
+    display: block;
+    text-align: center;
+}
+
+.header header h1 {
+}
+
+.header .nav-div {
+    display: block;
+
+}
+} */
